@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form + Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <h2>Форма</h2>
+        <form id="userForm">
+            <label for="fullName">ПІБ (Прізвище І.І):</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="Ваше ПІБ"><br><br>
+
+            <label for="faculty">Факультет:</label><br>
+            <input type="text" id="faculty" name="faculty" placeholder="Ваш факультет"><br><br>
+
+            <label for="dob">Дата народження (ЧЧ.ЧЧ.ЧЧЧЧ):</label><br>
+            <input type="text" id="dob" name="dob" placeholder="ЧЧ.ЧЧ.ЧЧЧЧ"><br><br>
+
+            <label for="address">Адреса (м. Місто):</label><br>
+            <input type="text" id="address" name="address" placeholder="м. Місто"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Ваш email"><br><br>
+
+            <button type="button" id="submitBtn">Надіслати</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Таблиця</h2>
+        <input type="color" id="colorPicker" value="#ff0000" />
+        <table id="interactiveTable"></table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
